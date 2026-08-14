@@ -1,0 +1,4 @@
+{
+  "roots": ["C:\\Users\\YourName\\Documents"],
+  "ignore_dirs": [".git", ".venv", "node_modules", "__pycache__"]
+}

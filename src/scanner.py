@@ -14,7 +14,7 @@ def scan_markdown_files(roots: list[str], ignore_dir: list[str]) ->list[Path]:
         root_path = Path(root)
         if not root_path.exists():
             continue
-        for md_file in root_path:
+        for md_file in root_path.rglob("*.md"):
             if any(part in ignore_set for part in md_file.parts):
                 continue
             found.append(md_file)
