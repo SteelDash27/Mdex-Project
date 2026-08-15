@@ -2,8 +2,7 @@
 
 A command-line tool that scans your computer for Markdown files, indexes them into a searchable dashboard, and flags duplicates and orphaned notes.
 
-### Status: 
-Currently in early development, with recursive scanning implemented and indexing/dashboard features in progress.
+### Status: Currently in early development, with recursive scanning implemented and indexing/dashboard features in progress.
 
 Built in public by a first-year CS student who had too many scattered Obsidian notes and no way to find any of them.
 
